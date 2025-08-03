@@ -125,7 +125,7 @@ retriever = vector_db.as_retriever(search_kwargs={"k": 3})
 from langchain_groq import ChatGroq
 import os
 
-os.environ["GROQ_API_KEY"] = "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"  # ⬅️ Replace with actual key
+os.environ["GROQ_API_KEY"] = "XYZ"  # ⬅️ Replace with actual key
 
 llm = ChatGroq(
     model_name="llama3-70b-8192",
